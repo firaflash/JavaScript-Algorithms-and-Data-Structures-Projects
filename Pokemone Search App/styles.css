@@ -1,0 +1,270 @@
+*,::after,::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0a0a23;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px;
+}
+
+.search-tab {
+    background-color: #1a1a2e;
+    border: 2px solid #e4da80;
+    width: 400px;
+    min-height: 900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0px 10px 90px rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 40px;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+    text-align: center;
+}
+
+.search-head {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.input {
+    display: flex;
+    margin: 15px;
+    gap: 15px;
+}
+
+button {
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: khaki;
+    border: 3px solid rgb(228, 218, 128);
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+#search-input {
+    padding: 5px;
+    background-color: rgb(255, 245, 225);
+    border: 2px solid #e4da80;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#search-input:focus {
+    border-color: goldenrod;
+}
+
+.output {
+    width: 380px;
+    height: 400px;
+    border: 2px solid yellow;
+    background-color: #555577;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.names-id {
+    width: 230px;
+    height: 30px;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    align-items: center;
+    background-color: #555577;
+    color: white;
+}
+#pokemon-name,#pokemon-id{
+    margin: 5px;
+}
+#weight,#height{
+    margin: 2px;
+}
+
+.stats {
+    width: 300px;
+    height: 30px;
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    background-color: #555577;
+    color: white;
+    padding: 15px;
+}
+
+.image {
+    width: 100%;
+    height: 280px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555577;
+    border-radius: 5px;
+}
+
+
+
+table {
+    margin-top: 10px;
+    border-spacing: 5px;
+    width: 100%;
+}
+
+.table-key {
+    width: 220px;
+    height: 45px;
+    background-color: silver;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    color: black;
+}
+
+.table-value {
+    width: 150px;
+    height: 45px;
+    background-color: silver;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+}
+
+.types{
+    width: 150px;
+    padding: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+    border-radius: 20px;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.type{
+  margin-right: 10px;
+  padding: 3px;
+}
+
+.normal {
+    background-color: #b7b7aa;
+  }
+  
+  .fire {
+    background-color: #ff6f52;
+  }
+  
+  .water {
+    background-color: #42a1ff;
+  }
+  
+  .electric {
+    background-color: #fecc33;
+  }
+  
+  .grass {
+    background-color: #78cc55;
+  }
+  
+  .ice {
+    background-color: #66ccfe;
+  }
+  
+  .fighting {
+    background-color: #d3887e;
+  }
+  
+  .poison {
+    background-color: #c68bb7;
+  }
+  
+  .ground {
+    background-color: #dfba52;
+  }
+  
+  .flying {
+    background-color: #8899ff;
+  }
+  
+  .psychic {
+    background-color: #ff66a3;
+  }
+  
+  .bug {
+    background-color: #aabb23;
+  }
+  
+  .rock {
+    background-color: #baaa66;
+  }
+  
+  .ghost {
+    background-color: #9995d0;
+  }
+  
+  .dragon {
+    background-color: #9e93f1;
+  }
+  
+  .dark {
+    background-color: #b59682;
+  }
+  
+  .steel {
+    background-color: #abaabb;
+  }
+  
+  .fairy {
+    background-color: #ed99ed;
+  }
+
+  @media (max-width: 768px) {
+    h1{
+      width: 200px;
+      font-size: 20px;
+    }
+    .search-tab{
+      width: 320px;
+    }
+    p{
+      font-size: 18px;
+    }
+    .input{
+      width: 250px;
+    }
+    .output{
+      width: 300px;
+    }
+    .stats{
+      width: 280px;
+    }
+}

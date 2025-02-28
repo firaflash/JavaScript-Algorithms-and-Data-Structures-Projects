@@ -1,0 +1,138 @@
+*, ::before, ::after {
+    background-color: rgb(59, 58, 78);
+    font-family: 'Open Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh; /* Use viewport height for centering */
+}
+
+header {
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+    margin-bottom: 20px; /* Adjusted margin */
+    text-align: center; /* Center the header text */
+    max-width: 300px;
+    color: white;
+    font-style: italic;
+}
+
+#phone {
+    border-radius: 10px;
+    height: 450px;
+    width: 260px;
+    background-color: rgb(1, 1, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative; /* Changed from fixed to relative */
+    margin-top: 20px; /* Adjusted margin */
+}
+
+#screen {
+    background-color: rgb(222, 223, 227);
+    width: 240px;
+    height: 368px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    position: relative; /* Changed from fixed to relative */
+    overflow-y: hidden;
+    padding-top: 20px; /* Add padding to push content down */
+}
+
+#camera {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 40px;
+    position: absolute; /* Position relative to #phone */
+    top: 5px; /* Adjusted position */
+}
+
+button {
+    width: 94px;
+    height: 26px;
+    background: linear-gradient(5deg, rgb(155, 151, 145), rgb(250, 250, 251)); /* Corrected */
+    border: 2.5px solid #999292; /* Slightly darker border for contrast */
+    color: rgb(25, 24, 24); /* White text for better readability */
+    font-size: 15px;
+    cursor: pointer; /* Pointer cursor for better UX */
+}
+
+button:hover {
+    background: linear-gradient(30deg, rgb(120, 115, 110), rgb(225, 225, 230)); /* Darker hover effect */
+    border-color: #2c2c2c; /* Adjust border on hover */
+}
+input {
+    width: 230px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px; /* Adjusted margin */
+    text-align: center; /* Center placeholder text */
+    background-color: white;
+    border: 1px solid black;
+    outline: 0px;
+}
+
+p {
+    background-color: transparent;
+    color: black;
+    margin: 0; /* Remove default margin */
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(222, 222, 226);
+    width: 100%; /* Make it full width */
+    padding: 10px; /* Add padding for spacing */
+    margin-top: 0; /* Remove margin */
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+
+
+#buttons {
+    width: 250px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    gap: 53px;
+    margin-top: 10px; /* Adjusted margin */
+    position: relative; /* Changed from fixed to relative */
+}
+
+
+#results-div{ 
+    width: 203px;
+    overflow-y: auto;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(222,222,226);
+}
+
+#result{
+    width: 203px;
+    max-width: 210px;
+    height: 250px;
+    min-height: 250px;
+    max-height: 250px;
+    overflow-y: auto;
+    background-color: rgb(222,222,226);
+    text-align: center;
+    overflow-x: hidden;
+}

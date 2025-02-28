@@ -1,0 +1,170 @@
+*,::after,::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0a0a23;
+}
+
+main{
+    margin: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 250px;
+    color: white;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#change-due{
+    width: 180px;
+    height: auto;
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+#input-field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    background-color: white;
+    width: 170px;
+    height: 25px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+button{
+    width: 90px;
+    height: 25px;
+    font-weight: 900;
+    margin: 20px;
+    background-color: rgb(231, 142, 0);
+    border: 0;
+    border-radius: 7px;
+}
+
+
+.cash-register{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
+    width: 400px;
+    height: 145px;
+    /* border: 1px solid blue; */
+}
+
+.top{
+    height: 90px;
+    width: 280px;
+    /* border: 2px solid black; */
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #99c9ff;
+}
+.screen{
+    width: 250px;
+    height: 70px;
+    border: transparent;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.total-price{
+    color: white;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.neck{
+    width: 80px;
+    height: 55px;
+    margin-left: 60px;
+    background-color: #99c9ff;
+
+}
+
+.body{
+    width: 390px;
+    height: 350px;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    display: flex;
+    background-color: #99c9ff;
+}
+.grid-place{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 20px;
+}
+
+.change-drawer{
+    width: 180px;
+    height: 200px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 37px;
+    font-weight: 900;
+    padding: 8px;
+    font-size: 15px;
+}
+.changes-in-drawer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 3px;
+}
+
+.drawer{
+    width: 400px;
+    height: 110px;
+    border: 2px solid black;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #99c9ff;
+
+}
+
+.lever{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #0a0a23;;
+}

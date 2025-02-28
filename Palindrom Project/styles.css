@@ -1,0 +1,102 @@
+html,main{
+
+    background-color: #00054d;
+    font-family: 'Open Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#main-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin-top: 30%;
+}
+
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+
+button{
+    background-color: brown;
+    border: 0%;
+    border-color: transparent;
+    color: white;
+    border-radius: 15%;
+}
+#inputCont{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    justify-content: center;
+    border-radius: 10px; 
+    box-shadow: 0 10px 10px rgb(0, 255, 174);
+
+}
+#text-hint,#inputCont{
+    width: 405px;
+}
+input{
+    margin-right: 25px;
+    border: none;
+    outline: none; /* Removes the default focus outline */
+    border-bottom: #00054d 2px solid;
+}
+
+.text{
+    border: transparent;
+    width: auto;
+    
+}
+input,button{
+    height: 30px;
+}
+
+
+input:focus {
+    border: 2px solid rgb(21, 21, 103);
+    border-bottom:  #00098e 3px solid;
+}
+
+#text-hint{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: auto;
+    background-color: aquamarine;
+    border-radius: 12px;
+}
+
+#result-container{
+    display: flex;
+    justify-content: center;
+}
+
+#result-container{
+    font-size: 20px;
+    
+}
+
+@media (max-width: 768px) {
+    #inputCont{
+        width: 310px;
+        /* background-color: black; */
+    }
+    #text-hint {
+        width: 310px;
+        text-align: center;
+        padding: 5px;
+    }
+}
