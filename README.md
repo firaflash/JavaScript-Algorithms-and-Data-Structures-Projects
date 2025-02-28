@@ -60,5 +60,3 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 Feel free to explore, contribute, and provide feedback. Happy coding! 🚀  
 
 ---
-
-This version improves readability, structure, and formatting while maintaining all essential details. Let me know if you'd like any further refinements! 😊
